@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/screens/dashboard.dart';
+import 'widgets/dashboard.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key? key}) : super(key: key);
@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(height: 60),
             Center(
               child: Text(
-                'Login Instally',
+                'Login via',
                 style: TextStyle(color: Color(0xFFA9A9BA)),
               ),
             ),
