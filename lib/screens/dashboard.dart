@@ -89,7 +89,7 @@ class MyStatelessWidget extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'This is the dashboard',
+          'Welcome!',
           style: TextStyle(fontSize: 24),
         ),
       ),
