@@ -9,8 +9,6 @@ class MyApp extends StatelessWidget {
   //root widget
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setSystemUIOverlayStyle(
-        SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Food Recipe',
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryColor: Colors.white,
         textTheme: TextTheme(
-          bodyText2: TextStyle(color: Colors.white),
+          bodyText2: TextStyle(color: Colors.orange),
         ),
       ),
       home: LoginPage(),

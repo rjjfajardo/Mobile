@@ -25,21 +25,18 @@ class MyStatelessWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     const IconData settings = IconData(0xe57f, fontFamily: 'MaterialIcons');
     return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.white10,
         appBar: AppBar(
-          backgroundColor: Colors.white,
-          elevation: 0,
           title: Row(
             //const Text('Dashboard'),
             children: [
-              Icon(Icons.restaurant_menu),
-              SizedBox(width: 10),
               Text(
                 'Food Recipes',
                 style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 26,
                     fontWeight: FontWeight.bold),
               )
@@ -69,7 +66,7 @@ class MyStatelessWidget extends StatelessWidget {
                       body: const Center(
                         child: Text(
                           'Settings Screen',
-                          style: TextStyle(fontSize: 24, color: Colors.black),
+                          style: TextStyle(fontSize: 24),
                         ),
                       ),
                     );
@@ -89,7 +86,7 @@ class MyStatelessWidget extends StatelessWidget {
                       body: const Center(
                         child: Text(
                           'Profile Screen',
-                          style: TextStyle(fontSize: 24, color: Colors.black),
+                          style: TextStyle(fontSize: 24),
                         ),
                       ),
                     );
@@ -104,7 +101,7 @@ class MyStatelessWidget extends StatelessWidget {
           rating: '4.9',
           cookTime: '30 min',
           thumbnailUrl:
-              'https://lh3.googleusercontent.com/ei5eF1LRFkkcekhjdR_8XgOqgdjpomf-rda_vvh7jIauCgLlEWORINSKMRR6I6iTcxxZL9riJwFqKMvK0ixS0xwnRHGMY4I5Zw=s360',
+              'https://www.acouplecooks.com/wp-content/uploads/2019/05/Garlic-Butter-Shrimp-026.jpg',
         ));
   }
 }
